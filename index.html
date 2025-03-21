@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- UNICONS-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/favicon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mayaank S Muttathi</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Header-->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Mayaank</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <a
+            href="/assets/images/Mayaank_S_Muttathi.pdf"
+            download="Mayaank_S_Muttathi.pdf"
+          >
+            <button class="btn">
+              Download Resume<i class="uil uil-file-download"></i>
+            </button>
+          </a>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenu()"></i>
+        </div>
+      </nav>
+      <!--Main-->
+      <main class="wrapper">
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Mayaank S Muttathi</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm a <span class="typedText">CSE(AI&ML)Student</span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Currently Studying at Don Bosco Institute of
+                Technology,Bengaluru.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <a href="#contact">
+                <button class="btn blue-btn">Hire ME</button>
+              </a>
+              <a
+                href="/assets/images/Mayaank_S_Muttathi.pdf"
+                download="Mayaank_S_Muttathi.pdf"
+              >
+                <button class="btn">
+                  Download CV <i class="uil uil-file-download"></i>
+                </button>
+              </a>
+            </div>
+            <div class="social_icons">
+              <a href="https://www.instagram.com/_.mayaanksm._" target="_blank" class="icons">
+                <i class="uil uil-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/mayaank-s-muttathi-452115139" target="_blank" class="icons">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="https://github.com/mayaanksm24" target="_blank" class="icons">
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="assets/images/avatar.png" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+        <!--About-->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  I am Well-versed in Python, HTML, CSS ,Javasceipt and Other
+                  cutting edge technologies such as Machine Learning.
+                  Additionally, I have experience working with Machine Learning
+                  Projects .
+                </p>
+                <div class="about-btn">
+                  <a href="/assets/images/Mayaank_S_Muttathi.pdf" download="Mayaank_S_Muttathi.pdf">
+                    <button class="btn">
+                      Download Resume<i class="uil uil-import"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Javascript</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Machine Learning</h3>
+                </div>
+                <div class="skills-list">
+                  <span><p>Familiar with Scikit Learn Library</p></span>
+                  <span><p>Strong with Basic concepts of ML</p></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Projects-->
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects & Internships</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <i class="uil uil-robot"></i>
+              <h3>Completed</h3>
+              <label>Projects on ML</label>
+              <button class="project-ml-button" id="know-more-ml-btn"> Learn More </button>
+              <div id="repo-dropdown-container" class="dropdown-container">
+                <select id="repo-select">
+                  <option value="" disabled selected> Select a Repository </option>
+                  <option value="https://github.com/mayaanksm24/AmericanSignLanguageAlphabetDetection"> Sign Language Alphabet Detection </option>
+                  <option value="https://github.com/mayaanksm24/Driver_Drowsiness_Detection_System">Real-Time Driver Drowsines System</option>
+                </select>
+                <button id="go-btn">Go</button>
+              </div>
+            </div>
+            <div class="project-box">
+              <i class="uil uil-award"></i>
+              <h3>Completed</h3>
+              <label>Projects on Basic Python Games</label>
+              <button class="project-game-button" id="know-more-game-btn"> Learn More </button>
+              <div id="game-dropdown-container" class="dropdown-container">
+                <select id="game-select">
+                  <option value="" disabled selected> Select a Repository </option>
+                  <option value="https://github.com/mayaanksm24/DrumKit"> Drum Kit </option>
+                  <option value="https://github.com/mayaanksm24/Form_Validator"> Form Validator </option>
+                  <option value="https://github.com/mayaanksm24/HangMan_Game"> Hangman </option>
+                </select>
+                <button id="go-game-btn">Go</button>
+              </div>
+            </div>
+
+            <div class="project-box">
+              <i class="uil uil-graduation-cap"></i>
+              <h3>Internships</h3>
+              <label><p>
+                  Research Based and Web Development at Compsoft Technologies
+                  and Intrainz Innovation
+                </p></label
+              >
+            </div>
+          </div>
+        </section>
+        <!--Contact-->
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in Touch</h1>
+            <span>Contact Me here</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Find Me <i class="uil uil-arrow-from-top"></i></h2>
+                <p>
+                  <i class="uil uil-envelope-edit"></i>Email:
+                  mayaanksm24@gmail.com
+                </p>
+                <p><i class="uil uil-phone-alt"></i>Tel: 8197127850</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-control">
+                <form id="contactForm">
+                  <div class="form-inputs">
+                    <input type="text" id="name" class="input-field" placeholder="Your Name" required />
+                    <input type="email" id="email" class="input-field" placeholder="Your Email" required />
+                  </div>
+                  <div class="text-area">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                  </div>
+                  <div class="form-button">
+                    <button type="button" class="btn" id="sendMail">Send <i class="uil uil-message"></i></button>
+                  </div>
+                </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!--Footer-->
+      <footer>
+        <div class="top-footer">
+          <p>Mayaank S Muttathi.</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <a href="https://www.instagram.com/_.mayaanksm._" target="_blank" class="icons">
+            <i class="uil uil-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mayaank-s-muttathi-452115139" target="_blank" class="icons">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+          <a href="https://github.com/mayaanksm24" target="_blank" class="icons">
+            <i class="uil uil-github"></i>
+          </a>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Mayaank S Muttathi</a
+            >- All Rights Reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!--Typed JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
